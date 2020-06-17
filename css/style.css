@@ -1,0 +1,472 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgba(226,226,226,1);
+background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 55%, rgba(219,219,219,1) 65%, rgba(254,254,254,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(55%, rgba(209,209,209,1)), color-stop(65%, rgba(219,219,219,1)), color-stop(100%, rgba(254,254,254,1)));
+background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 55%, rgba(219,219,219,1) 65%, rgba(254,254,254,1) 100%);
+background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 55%, rgba(219,219,219,1) 65%, rgba(254,254,254,1) 100%);
+background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 55%, rgba(219,219,219,1) 65%, rgba(254,254,254,1) 100%);
+background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(209,209,209,1) 55%, rgba(219,219,219,1) 65%, rgba(254,254,254,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 );
+}
+h2{
+    font-size:40px;
+    color:#222222;
+    padding-bottom: 20px;
+}
+.banner-text b{
+    font-weight: normal;
+}
+
+.header{
+}
+.head{
+    
+}
+.main-menu{
+  
+    padding: 20px 0px ;
+    z-index: 999;
+    height: 96px;
+}
+
+.logo{
+width: 20%;
+float: left;
+}
+.logo a{
+font-size: 36px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center;
+color: #FFFFFF;
+}
+.menu {
+
+
+}
+.menu ul {
+ 
+ text-align: end;
+}
+.menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+.menu ul li a{
+padding: 13px 15px;
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+display: inline-block;
+color: #FFFFFF;
+}
+.menu ul li a:hover{
+    color: #35C2F8;
+    text-decoration: none;
+}
+  
+
+
+.mobile-menu span{
+    font-size: 36px;
+    color: white;
+    float: right;
+    cursor: pointer;
+    display: none;
+}
+
+
+
+.overlay{
+position: fixed;
+height: 100%;
+
+top: 0;
+left: 0;
+overflow: hidden;
+z-index: 999;
+background-color:#40403F ;
+width: 0%;
+-webkit-transition: .5s;
+-o-transition: .5s;
+transition: .5s;
+}
+.overlay-content {
+
+position: relative;
+top: 15%;
+text-align: center;
+width: 100%;
+
+}
+
+ .overlay-content a{
+    font-size: 24px;
+    display: block;
+    padding: 10px ;
+    color: white;
+    text-transform: uppercase;
+}
+.overlay a:hover{
+    color: #fff;
+}
+
+.mobile-menu .closebtn{
+ position: absolute;
+ top: 1%;
+ right: 3%;   
+ font-size: 48px;
+
+ color: black;
+}
+
+
+
+fixed{
+    width: 100%;
+   position: fixed;
+   top: 0;
+   left: 0;
+   background-color: rgba(0, 0, 0, 0.781);
+   height: 70px;
+   -webkit-transition: .1s;
+   -o-transition: .1s;
+   transition: .1s;
+   z-index: 999;
+}
+.fixed .main-menu{
+  
+    padding: 20px 0px ;
+}
+
+
+
+  /************ Menubar Start**************/
+  /************ Banner Start**************/
+  .banner {
+    
+    background-image: url(../image/bg.png);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin: auto;
+    height: 660px;
+    background-size: cover;
+margin: auto;
+max-width: 1365px;
+margin: auto;
+}
+.banner-text{
+    padding-top: 90px;
+    padding-bottom: 110px;
+}
+.cd-words-wrapper {
+    
+    text-align: center;
+}
+.banner h1{
+    font-size: 50px;
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: normal;
+}
+ hr{width: 140px;
+    height: 1px;
+    background: #35C2F8;}
+.banner p{
+    font-size: 20px;
+    color: #CCCCCC;
+    text-align: center;
+   padding: 30px 320px 0px 320px;
+}
+  /************ service Start**************/
+  /************ mneubar  end**************/
+  p{
+      font-size: 15px;
+  }
+
+    /************exper tise Start**************/
+  /************  service end**************/
+ .expertise{
+    background-color: #F7F7F7;
+max-width: 1365px;
+height: 600px;
+margin-top: 100px;
+max-width: 1365px;
+margin: auto;
+
+ }
+  .expertise p{
+color: #777777;
+font-size: 14px;
+  }
+  .proin{
+      font-size: 16px;
+  }
+  .expertise a {
+    color: black;
+    width: 160px;
+    height: 50px;
+    border-radius: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 10px;
+    padding-top: 12px;
+    background-color: white;
+   
+    margin-bottom: 21px;
+}
+.expertise a:hover{
+    opacity: .7;
+}
+ .media img{
+    width: 35px;
+}
+.other-img {
+    width: 30%;
+    float: right;
+}
+.other-img img{
+
+}
+.gray{
+   
+    width: 70%;
+}
+
+    /************portfolio Start**************/
+  /************  exper tise end**************/
+  .amazing-portfolio{
+    max-width: 1365px;
+    margin: auto;
+  }
+  .amazing{
+      position: relative;
+
+     
+
+  }
+  .amazing p{
+    font-size: 16px;
+    color:#777777;
+}
+  .amazing .media p{
+      font-size: 14px;
+      padding-right: 120px;
+  }
+  .amazing .media img{
+      width: 30px;
+  }
+
+  .tabs {
+      
+  }
+  .tabs img {
+    position: absolute;
+    right: 0px;
+    width: 600px;
+    top: 50px;
+}
+.aba{
+    right: 0;
+    position: absolute;
+}
+  
+
+
+
+ /*****Portfolio***/ 
+
+
+
+
+.portfolio{
+   
+    
+
+}
+.portfolio img{
+width: 100%;
+}
+.portfolio-btn{
+    text-align: center;
+}
+.portfolio-btn button {
+    cursor: pointer;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0px 5px;
+}
+
+
+ /************about Start**************/
+  /************  portfolio end**************/
+  .portfolio{
+    max-width: 1365px;
+    margin: auto;
+  }
+  .us h3{
+      color: #222222;
+    
+  }
+  .us p{
+      font-size: 14px;
+      color: #777777;
+  }
+  .us img{
+  width: 250px;
+  -webkit-transition: all ease .5s;
+  -o-transition: all ease .5s;
+  transition: all ease .5s;
+}
+
+.us img:hover {
+   
+    -webkit-transform: scale(1.3);
+   
+        -ms-transform: scale(1.3);
+   
+            transform: scale(1.3);
+    cursor: pointer;
+}
+
+.us{
+    position: relative;
+}
+.hori{
+    width: 1px;
+    height: 120px;
+    background:#777777;
+    margin: auto;
+}
+ /************team  Start**************/
+  /************ about end**************/
+  .team{
+      background-color: #F7F7F7;
+      padding-bottom: 50px;
+      max-width: 1365px;
+margin: auto;
+  }
+  .goal-img img{
+      width: 220px;
+     height: 220px;
+border-radius: 50%;
+background-color: rgba(0, 0, 0, 0.048);
+
+  }
+  .team-info a i {
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+    padding: 13px 12px 10px 12px;
+    background-color: black;
+    margin: 0px 5px;
+    -webkit-transition: all ease .5s;
+    -o-transition: all ease .5s;
+    transition: all ease .5s;
+   
+}
+
+.team-info a i:hover{
+    -webkit-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+            transform: rotate(360deg);
+    color: black;
+    background-color: gray;
+
+}
+ /************Footer  Start**************/
+  /************ team end**************/
+  .foot{
+    
+      background-color: #111111;
+margin:auto;
+max-width:1365px;
+max-width: 1365px;
+margin: auto;
+  }
+  .foot-text span{
+font-size: 16px;
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+
+  }
+  .foot-text i{
+ font-size:36px;  
+ height: 40px;
+ width: 50px;  
+margin-top: 5px;
+
+}
+.form input{
+   
+    border:1px solid white;
+    height: 50px;
+    text-align: start!important;
+    padding-left: 15px;
+}
+.form textarea{
+    height: 117px;
+}
+.form button {
+    width: 170px;
+    height: 50px;
+    border-radius: 35px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    padding-top: 7px;
+    margin-bottom: 50px;
+}
+/*******Copyright*******/
+.copy-right{
+   
+    background-color: #111111;
+    max-width: 1365px;
+margin: auto;
+}
+.copy{
+    border-top:1px solid white;
+    text-align: center;
+    height: 60px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+
+   
+}
+.copy p {
+    display: inline;
+    color: white;
+    font-size: 18px;
+    padding-top: 15px;
+}
+
+
+
+
+
+
+  

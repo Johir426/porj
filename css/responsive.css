@@ -1,0 +1,263 @@
+
+@media (min-width: 992px) and (max-width: 1200px)   {
+    .banner p {
+      padding: 30px 240px 0px 240px;
+    }
+.hori {
+      
+        margin-top: -25px;
+    }
+    .tabs img {
+        position: absolute;
+        right: 0px;
+        width: 430px;
+        top: 50px;
+    }
+
+
+}
+
+@media (min-width:768px) and (max-width: 991px)   {
+    .menu ul li a {
+        padding: 16px 9px;
+        font-size: 16px;
+}
+.banner p {
+   
+    padding: 30px 105px 0px 105px;
+}
+h2{
+    font-size:36px;
+}
+.item p {
+    width: 223px;
+    text-align: center;
+}
+
+.amazing p {
+    text-align: justify;
+}
+.hori {
+    height: 80px;
+    margin-top: -45px;
+}
+.foot h2 {
+    text-align: center;
+}
+.foot p {
+    text-align: center;
+    padding: 0px 140px;
+}
+.foot-text span {
+   
+    width: 210px;
+    margin: auto;
+}
+.form {
+    text-align: center;
+}
+.amazing .media p {
+    font-size: 14px;
+    padding-right: 55px;
+}
+.tabs img {
+    position: absolute;
+    right: 0px;
+    width: 330px;
+    top: 50px;
+}
+
+
+
+    
+}
+
+@media (min-width: 576px) and (max-width: 767px)   {
+    .navbar-nab {
+        display: none;
+     }
+     .mobile-menu span{
+         display: block;
+     }
+     .banner h1 {
+        font-size: 46px;
+    } 
+    .banner {
+        height: 450px;
+    }
+.banner p {
+        font-size: 20px;
+        padding: 30px 0px 0px 0px;
+    }
+
+.banner-text {
+        padding-top: 40px;
+        padding-bottom: 0px;
+    }
+    h2{
+        font-size:24px;
+    }
+.amazing .media p {
+        font-size: 14px;
+        padding-right: 0px;
+    }
+    .media h5 {
+        font-size: 18px;
+    }
+    .hori {
+height: 170px;
+ margin-top: -140px;
+    }
+    .form {
+        text-align: center;
+    }
+    .foot h2 {
+        text-align: center;
+    }
+    .foot p {
+        text-align: center;
+        padding: 0px 50px;
+    }
+    .tabs img {
+        position: absolute;
+        right: 0px;
+        width: 250px;
+        top: 50px;
+    }
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 575px)   {
+  
+    .navbar-nab {
+         display: none;
+      }
+      .mobile-menu span{
+          display: block;
+      }
+      .form {
+        text-align: center;
+    }
+    .banner h1 {
+        font-size: 8vw;
+    }
+    .banner {
+        height: 500px;
+    }
+.banner p {
+        font-size: 20px;
+        padding: 30px 0px 0px 0px;
+    }
+
+.banner-text {
+        padding-top: 0px;
+        padding-bottom: 30px;
+    }
+    h2{
+        font-size:24px;
+    }
+    .amazing p {
+  text-align: justify;
+    }
+    .media {
+       
+        display: flex;
+        -ms-flex-align: start;
+        align-items: flex-start;
+        width: 298px;
+        margin: auto;
+    }
+    .amazing .media p {
+        font-size: 14px;
+         padding-right: 0px
+    } 
+    .tabs {
+        height: 80vw;
+    }
+    .tabs img{
+       top: 0;
+    }
+    .hori {
+       
+        height: 170px;
+        margin-top: -135px;
+    }
+    .foot h2 {
+        text-align: center;
+    }
+    .foot p {
+        text-align: center;
+        padding: 0px 0px;
+        font-size: 16px;
+    }
+    .foot-text span {
+        font-size: 14px;
+}
+.foot-text i {
+    font-size: 30px;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+}
+.portfolio-btn button {
+    padding: 10px 14px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    font-size: 16px;
+}
+.us h3 {
+    font-size: 16px;
+}
+.us p {
+    font-size: 12px;
+}
+.foot-text .row {
+    display: none;
+}
+.foot p {
+   
+    padding: 7px 0px;
+    font-size: 16px;
+}
+hr {
+    width: 80px;
+    height: 1px;
+   
+}
+
+  } 
+  @media (min-width: 391px) and (max-width: 450px)   {
+     
+    .hori {
+        height: 210px;
+        margin-top: -152px;
+    }
+    .foot-text span {
+        font-size: 12px;
+    }
+    .foot-text i {
+        font-size: 26px;
+        height: 40px;
+        width: 34px;
+        margin-top: 5px;
+    }
+    .portfolio-btn button {
+        padding: 10px 7px;
+        border-radius: 10px;
+        margin: 5px 5px;
+        font-size: 12px;
+    }
+
+  }
+
+  @media (min-width: 320px) and (max-width: 390px)   {
+     
+    .hori {
+        height: 261px;
+        margin-top: -187px;
+    }
+
+}
